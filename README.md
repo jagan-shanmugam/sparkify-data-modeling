@@ -1,21 +1,21 @@
-##Data Modeling with Postgres 
+## Data Modeling with Postgres 
 
 We create a data model for a music streaming application to help out analytics team (in fictional startup Sparkify) run analytics queries on users and their song activity data. 
 
-###Objective
+### Objective
 Using Postgres, model the data with Star schema with the fact and dimension tables and build a ETL pipeline to process data from JSON files to the analysis 'sparkifydb' database. 
 
-###ETL process
+### ETL process
 Song data set consists of subset of files from [Million Song Dataset](http://millionsongdataset.com/) and log data set is simulated using [this event simulator](https://github.com/Interana/eventsim).
 Data in JSON files are read using pandas package which then are later transformed and loaded into corresponding tables.
 
-####Star schema
+#### Star schema
 Data from JSON files are loaded into one fact and four dimension tables in sparkifydb. Fact and dimension tables are given below. 
 
-#####Fact table
+##### Fact table
 - songplays
 
-#####Dimension tables
+##### Dimension tables
 - users
 - songs
 - artists
