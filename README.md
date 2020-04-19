@@ -35,4 +35,4 @@ Instructions to run:
 - Populate the fact and dimension tables by executing etl.py file 
 - Verify if all tables are populated by running all cells in test.ipynb file
 
-Run the python files by executing '>python $file_name$.py' in a terminal from the project directory. 
+Run the python files by executing 'python $file_name$.py' in a terminal from the project directory. 
